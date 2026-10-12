@@ -1,4 +1,4 @@
-# Unpinned blobs from OS2.0.4.0.VNOMIXM
+# Unpinned blobs from OS3.0.303.0.WNOEUXM
 
 # AEE
 vendor/lib/libaedv.so
@@ -653,7 +653,7 @@ vendor/lib64/librelight_only.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/librfs_warp.so
-vendor/lib64/libvideofilter_only.so
+# vendor/lib64/libvideofilter_only.so
 vendor/lib64/libwa_opticalzoomfactor.so
 vendor/lib64/libwa_sat.so
 vendor/lib64/mt6886/imx214_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/imx214_mipi_raw_IdxMgr.so
@@ -1256,8 +1256,8 @@ vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/lib64/libfgauge_gm30.so
 
 # Hotword Enrollment
-product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk
-product/priv-app/HotwordEnrollmentXGoogleRISCV/HotwordEnrollmentXGoogleRISCV.apk
+# product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk
+# product/priv-app/HotwordEnrollmentXGoogleRISCV/HotwordEnrollmentXGoogleRISCV.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
@@ -1749,7 +1749,7 @@ odm/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service:vendor/bin/hw/vendor.x
 odm/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc:vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc
 odm/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml:vendor/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml
 vendor/etc/excluded-input-devices.xml
-vendor/lib64/libaachaptics.so
+odm/lib64/libaachaptics.so
 vendor/lib64/vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk.so
 
 # Vibrator (firmware)
