@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "fastcharge@1.0-service.zircon"
+#define LOG_TAG "fastcharge@1.0-service.samsung"
 
 #include "FastCharge.h"
 #include <android-base/logging.h>
@@ -22,7 +22,7 @@
 
 #include <fstream>
 #include <iostream>
-#include "zircon_fastcharge.h"
+#include "samsung_fastcharge.h"
 
 namespace vendor {
 namespace lineage {
