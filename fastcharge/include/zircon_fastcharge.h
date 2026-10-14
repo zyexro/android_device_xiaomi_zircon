@@ -16,6 +16,5 @@
 
 #pragma once
 
-#define FASTCHARGE_DEFAULT_SETTING false
-#define SPORTMODE_PATH "/sys/class/power_supply/battery/sport_mode"
-#define SMARTCHG_PATH "/sys/class/power_supply/battery/smart_chg"
+#define FASTCHARGE_DEFAULT_SETTING true
+#define FASTCHARGE_PATH "/sys/class/sec/switch/afc_disable"
