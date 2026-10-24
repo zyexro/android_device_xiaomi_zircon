@@ -181,7 +181,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2024-12-01
+VENDOR_SECURITY_PATCH := 2026-08-01
 
 # Sepolicy
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
@@ -242,7 +242,9 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # MIUI Camera
+ifneq ($(wildcard device/xiaomi/zircon-miuicamera/BoardConfig.mk),)
 include device/xiaomi/zircon-miuicamera/BoardConfig.mk
+endif
 
 # Vendor
-include vendor/xiaomi/zircon/BoardConfigVendor.mk
+-include vendor/xiaomi/zircon/BoardConfigVendor.mk

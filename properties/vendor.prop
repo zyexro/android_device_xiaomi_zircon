@@ -1,7 +1,7 @@
 # Aee
 ro.vendor.aee.convert64=1
 ro.vendor.mediatek.version.branch=alps-mp-t0.mp1.tc8sp2
-ro.vendor.mediatek.version.release=alps-mp-t0.mp1.tc8sp2-V1.14_P437
+ro.vendor.mediatek.version.release=alps-mp-t0.mp1.tc8sp2-V1.14_P500
 ro.vendor.mgvi_name=mgvi_64_armv82
 
 # Apex

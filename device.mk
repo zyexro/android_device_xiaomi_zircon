@@ -384,7 +384,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml
 
 # MIUI Camera
+ifneq ($(wildcard device/xiaomi/zircon-miuicamera/device.mk),)
 $(call inherit-product, device/xiaomi/zircon-miuicamera/device.mk)
+endif
 
 # Vendor
 $(call inherit-product, vendor/xiaomi/zircon/zircon-vendor.mk)

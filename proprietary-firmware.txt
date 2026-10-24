@@ -1,29 +1,25 @@
-# Unpinned fw from OS2.0.4.0.VNOMIXM
+# Unpinned firmware from OS3.0.305.0.WNOCNXM (HyperOS 3 / Android 16)
 
-dtbo.img;AB
-
-# miui_ZIRCONGlobal_OS1.0.2.0.UNOMIXM_042c23442e_14.0
-apusys.img;AB|f9c49314b0f5abd07bf38764d5f3d05b9b76a760
-audio_dsp.img;AB|3423934e381c31926c0df5873a0c5f4dccf7d274
-ccu.img;AB|bc289089d841c0dcf33277cae7268d22957b37e5
-connsys_bt.img;AB|76a107879edaf3d188c63471134578239df0f466
-connsys_gnss.img;AB|3ee2d63935f790411805da9cbfb5daa493457381
-connsys_wifi.img;AB|ec226e10ef512d37fa8a209dc71f49f067bda9b0
-dpm.img;AB|faab4e9bde66951fbf0a51887178f07a46ab2beb
-gpueb.img;AB|405fc6211ddc2f424d062c15e57be521668024ab
-gz.img;AB|3698dd8ef351749ef798c569d31e62f3b831bfc5
-lk.img;AB|d1a61bfd42a3a7df9bb2fd831553bcbff9e9b121
-logo.bin:logo.img;AB|b049853ff2103e660f03f917abfa165ccc7cb323
-mcf_ota.img;AB|ffd367f3a5f9bc22caccaefb446603f093c5bfca
-mcupm.img;AB|d62faafe470a8f82477f525de5a04e9b610c55a3
-md1img.img;AB|3bab504bd5bb06d01f6c99681e9a044e173c0208
-mvpu_algo.img;AB|8f02dac0501e15e1fce7ce26bbacf99b42ec8e87
-pi_img.img;AB|0ac97c509de3335caa7d5ef7e58de9648a9fc04d
-scp.img;AB|a75644aaf5ecb3282b46605578aa66b5e94b419c
-spmfw.img;AB|8fef3a92bbd96a55d4f170438a1e36e17016ca26
-sspm.img;AB|7cfb321a7ee8222f43334797ddcc59db36417dee
-tee.img;AB|a5acd91cea62049979c3ef9cd1687b998f822001
-vcp.img;AB|30e60610bf662ea2b9f9e814b4b1424ac9c97bec
-
-# ENG
-preloader_zircon.bin:preloader_raw.img;AB|c4fd486a2838df2a14683d6e14f8d1dc89590160
+dtbo.img;AB|c01ddf288668520e34d49bc2e113bb93283e3475
+apusys.img;AB|4c246ff8cfe04f6251553ec79b729127e55849b0
+audio_dsp.img;AB|a64b14e1fc6e393cdb1f5f10e18c6e1283d659fe
+ccu.img;AB|604bf217ba0d994d5e24973d4a60306737fc2d7d
+connsys_bt.img;AB|51e42c7b5acf660890c3da4234282727676563a4
+connsys_gnss.img;AB|59a583d759134c6d55b9f2e92ab6f6dbda013774
+connsys_wifi.img;AB|ccb124ba4d0cffe18c2e209c2f153fa844be1e3c
+dpm.img;AB|f5a902af0923d0d0676b432f03f830ba461cfd0f
+gpueb.img;AB|6ea0760f2f8d17717b780816ce56978ae52e531a
+gz.img;AB|db1d1f701fd19b6a65cb261d30c0196e2259fcb6
+lk.img;AB|7e229f9e0430ecc3dbf581c0a80a1121a939b946
+logo.bin:logo.img;AB|a13da4a113f0b41e14a3e85cfe87ba2779888442
+mcf_ota.img;AB|42255d025ef2f49d855042d6d30fe7b832da32c7
+mcupm.img;AB|d713e2cf1a9f0ccb368ae1641c8e295847e849f1
+md1img.img;AB|aaa20c28d586810b2693aac899cc4e371e5ee541
+mvpu_algo.img;AB|4b43d9d06c75a17407b72c5ad0c094e4911c7bfe
+pi_img.img;AB|6e45bd9df498fc24a376810d3c1a99c832cf1ac5
+scp.img;AB|41c0c947a4aae6e79601e1d73a731e101588c838
+spmfw.img;AB|652eda92e4eac5fa8e29f77b81a1dc64f1353f50
+sspm.img;AB|f5adb9ecb88ab353ce24475d0385d30f887de7f6
+tee.img;AB|ab9c1bc8fa857f00b95a17b94688be2b5841f8cc
+vcp.img;AB|bcb0b386439d15b8684c23037b0e6d3827cae96e
+preloader_zircon.bin:preloader_raw.img;AB|a359052ac67ee70131508ae03eb5001ec26b0030
