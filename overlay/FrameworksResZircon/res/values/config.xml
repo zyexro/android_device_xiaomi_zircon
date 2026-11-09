@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display density -->
+    <item name="config_density" type="dimen">480</item>
+
+    <!-- Notification LED -->
+    <bool name="config_hasNotificationLed">false</bool>
+
+    <!-- Ambient display -->
+    <bool name="config_dozeDisplayStateSupported">true</bool>
+</resources>

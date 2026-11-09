@@ -1,0 +1,18 @@
+//
+// Copyright (C) 2026 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// fstab.mt6886 and the vendor init/ueventd files are installed by the
+// generated vendor tree (vendor/xiaomi/zircon). The copy kept in this
+// directory is referenced directly as TARGET_RECOVERY_FSTAB and is not
+// installed again here to avoid a duplicate vendor/etc/fstab.mt6886.
+
+prebuilt_etc {
+    name: "init.recovery.mt6886.rc",
+    src: "etc/init.recovery.mt6886.rc",
+    recovery: true,
+    filename_from_src: true,
+    sub_dir: "etc",
+}

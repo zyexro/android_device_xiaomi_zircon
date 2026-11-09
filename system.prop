@@ -1,0 +1,25 @@
+# Charger
+ro.charger.enable_suspend=true
+
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
+# Display
+ro.sf.lcd_density=480
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
+# Media
+debug.stagefright.omx_default_rank=0
+media.stagefright.thumbnail.prefer_hw_codecs=true
+
+# Platform
+ro.board.platform=mt6886
+ro.hardware.egl=mali
+ro.opengles.version=196610
+
+# Zygote
+zygote.critical_window.minute=10

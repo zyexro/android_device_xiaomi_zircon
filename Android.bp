@@ -1,0 +1,48 @@
+//
+// Copyright (C) 2026 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+soong_namespace {
+}
+
+// Cross-partition symlinks present on the stock device.
+// These point outside the vendor partition, so they cannot be expressed as
+// SYMLINK= args on a blob and are installed explicitly instead.
+
+install_symlink {
+    name: "zircon_vendor_lib_modules",
+    soc_specific: true,
+    installed_location: "lib/modules",
+    symlink_target: "/vendor_dlkm/lib/modules",
+}
+
+install_symlink {
+    name: "zircon_vendor_odm",
+    soc_specific: true,
+    installed_location: "odm",
+    symlink_target: "/odm",
+}
+
+install_symlink {
+    name: "zircon_vendor_etc_mdota",
+    soc_specific: true,
+    installed_location: "etc/mdota",
+    symlink_target: "/mnt/vendor/mdota",
+}
+
+install_symlink {
+    name: "zircon_odm_lib_modules",
+    device_specific: true,
+    installed_location: "lib/modules",
+    symlink_target: "/odm_dlkm/lib/modules",
+}
+
+install_symlink {
+    name: "zircon_vendor_bin_hw_arm_mali_platform_service_mediatek",
+    soc_specific: true,
+    installed_location: "bin/hw/arm.mali.platform-service.mediatek",
+    symlink_target: "/vendor/bin/hw/mt6886/arm.mali.platform-service.mediatek.mt6886",
+}
+
